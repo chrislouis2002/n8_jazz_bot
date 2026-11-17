@@ -1,0 +1,102 @@
+import * as path from "node:path";
+import { processVideoHighlights } from "./highlightPipeline";
+import { formatForYouTubeShorts } from "./videoFormatter";
+import { uploadToYouTube } from "./youtubeUploader";
+
+
+export interface UploadedHighlight {
+    title: string;
+    reason: string;
+    videoId: string;
+    videoUrl: string;
+    privacyStatus: string;
+    filePath: string;
+}
+
+
+export async function processAndUploadHighlights(
+    inputPath: string,
+    durationSeconds: number
+): Promise<UploadedHighlight[]> {
+    const input = path.resolve(inputPath);
+    const baseDirectory = path.dirname(input);
+
+
+    const highlightsDirectory = path.join(
+        baseDirectory,
+        "ai-highlights"
+    );
+
+
+    const shortsDirectory = path.join(
+        baseDirectory,
+        "youtube-shorts"
+    );
+
+
+    console.log("Starting AI highlight detection...");
+
+
+    const highlights = await processVideoHighlights(
+        input,
+        durationSeconds,
+        highlightsDirectory
+    );
+
+
+    if (highlights.length === 0) {
+        console.log("No worthwhile highlights were detected.");
+        return [];
+    }
+
+
+    const uploaded: UploadedHighlight[] = [];
+
+
+    for (let i = 0; i < highlights.length; i++) {
+        const highlight = highlights[i]!;
+
+
+        console.log(
+            `Formatting highlight ${i + 1} of ${highlights.length}...`
+        );
+
+
+        const formattedPath = path.join(
+            shortsDirectory,
+            `short-${String(i + 1).padStart(2, "0")}.mp4`
+        );
+
+
+        const formatted = await formatForYouTubeShorts(
+            highlight.filePath,
+            formattedPath
+        );
+
+
+        console.log(`Uploading: ${highlight.suggestedTitle}`);
+
+
+        const result = await uploadToYouTube(
+            formatted.filePath,
+            highlight.suggestedTitle,
+            `AI-selected video highlight.\n\n${highlight.reason}`
+        );
+
+
+        uploaded.push({
+            title: highlight.suggestedTitle,
+            reason: highlight.reason,
+            videoId: result.videoId,
+            videoUrl: result.videoUrl,
+            privacyStatus: result.privacyStatus,
+            filePath: formatted.filePath
+        });
+
+
+        console.log("YouTube upload completed:", result.videoUrl);
+    }
+
+
+    return uploaded;
+}

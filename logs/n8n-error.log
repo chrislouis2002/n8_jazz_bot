@@ -1,0 +1,365 @@
+(node:27904) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Error fetching feature flags Error [PostHogFetchNetworkError]: Network error while fetching PostHog
+    at new PostHogFetchNetworkError (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/posthog-core/src/index.ts:41:5)
+    at PostHog.<anonymous> (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/posthog-core/src/index.ts:546:17)
+    at step (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:102:23)
+    at Object.throw (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:83:53)
+    at rejected (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:74:65)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  error: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    [cause]: Error: getaddrinfo ENOTFOUND us.i.posthog.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:111:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'us.i.posthog.com'
+    }
+  },
+  [cause]: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    [cause]: Error: getaddrinfo ENOTFOUND us.i.posthog.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:111:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'us.i.posthog.com'
+    }
+  }
+}
+2026-11-04T11:52:55.373Z [Rudder] error: Response error code: ENOTFOUND
+2026-11-04T11:52:55.384Z [Rudder] error: Error: ENOTFOUND
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at TelemetryController.sourceConfig (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/src/controllers/telemetry.controller.ts:48:20)
+    at handler (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/src/controller.registry.ts:95:12)
+    at /Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/src/controller.registry.ts:101:7
+2026-11-06T10:47:26.842Z [Rudder] error: Response error code: ENOTFOUND
+2026-11-06T10:47:27.017Z [Rudder] error: Error: ENOTFOUND
+Error fetching feature flags Error [PostHogFetchNetworkError]: Network error while fetching PostHog
+    at new PostHogFetchNetworkError (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/posthog-core/src/index.ts:41:5)
+    at PostHog.<anonymous> (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/posthog-core/src/index.ts:546:17)
+    at step (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:102:23)
+    at Object.throw (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:83:53)
+    at rejected (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:74:65)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  error: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    [cause]: Error: getaddrinfo ENOTFOUND us.i.posthog.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:111:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'us.i.posthog.com'
+    }
+  },
+  [cause]: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    [cause]: Error: getaddrinfo ENOTFOUND us.i.posthog.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:111:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'us.i.posthog.com'
+    }
+  }
+}
+2026-11-07T18:56:12.500Z [Rudder] error: Response error code: ENOTFOUND
+2026-11-07T18:56:12.503Z [Rudder] error: Error: ENOTFOUND
+Error fetching feature flags Error [PostHogFetchNetworkError]: Network error while fetching PostHog
+    at new PostHogFetchNetworkError (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/posthog-core/src/index.ts:41:5)
+    at PostHog.<anonymous> (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/posthog-core/src/index.ts:546:17)
+    at step (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:102:23)
+    at Object.throw (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:83:53)
+    at rejected (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:74:65)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  error: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    [cause]: Error: getaddrinfo ENOTFOUND us.i.posthog.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:111:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'us.i.posthog.com'
+    }
+  },
+  [cause]: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    [cause]: Error: getaddrinfo ENOTFOUND us.i.posthog.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:111:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'us.i.posthog.com'
+    }
+  }
+}
+2026-11-08T01:07:45.979Z [Rudder] error: Response error code: ENOTFOUND
+2026-11-08T01:07:45.981Z [Rudder] error: Error: ENOTFOUND
+2026-11-08T13:40:35.762Z [Rudder] error: Response error code: ENOTFOUND
+2026-11-08T13:40:35.766Z [Rudder] error: Error: ENOTFOUND
+Error fetching feature flags Error [PostHogFetchNetworkError]: Network error while fetching PostHog
+    at new PostHogFetchNetworkError (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/posthog-core/src/index.ts:41:5)
+    at PostHog.<anonymous> (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/posthog-core/src/index.ts:546:17)
+    at step (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:102:23)
+    at Object.throw (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:83:53)
+    at rejected (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:74:65)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  error: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    [cause]: Error: getaddrinfo ENOTFOUND us.i.posthog.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:111:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'us.i.posthog.com'
+    }
+  },
+  [cause]: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    [cause]: Error: getaddrinfo ENOTFOUND us.i.posthog.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:111:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'us.i.posthog.com'
+    }
+  }
+}
+Error fetching feature flags Error [PostHogFetchNetworkError]: Network error while fetching PostHog
+    at new PostHogFetchNetworkError (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/posthog-core/src/index.ts:41:5)
+    at PostHog.<anonymous> (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/posthog-core/src/index.ts:546:17)
+    at step (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:102:23)
+    at Object.throw (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:83:53)
+    at rejected (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:74:65)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  error: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    [cause]: Error: getaddrinfo ENOTFOUND us.i.posthog.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:111:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'us.i.posthog.com'
+    }
+  },
+  [cause]: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    [cause]: Error: getaddrinfo ENOTFOUND us.i.posthog.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:111:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'us.i.posthog.com'
+    }
+  }
+}
+2026-11-09T09:37:33.000Z [Rudder] error: Response error code: ENOTFOUND
+2026-11-09T09:37:33.007Z [Rudder] error: Error: ENOTFOUND
+Error fetching feature flags Error [PostHogFetchNetworkError]: Network error while fetching PostHog
+    at new PostHogFetchNetworkError (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/posthog-core/src/index.ts:41:5)
+    at PostHog.<anonymous> (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/posthog-core/src/index.ts:546:17)
+    at step (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:102:23)
+    at Object.throw (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:83:53)
+    at rejected (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:74:65)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  error: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    [cause]: Error: getaddrinfo ENOTFOUND us.i.posthog.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:111:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'us.i.posthog.com'
+    }
+  },
+  [cause]: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    [cause]: Error: getaddrinfo ENOTFOUND us.i.posthog.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:111:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'us.i.posthog.com'
+    }
+  }
+}
+2026-11-09T17:27:50.017Z [Rudder] error: Response error code: ENOTFOUND
+2026-11-09T17:27:50.019Z [Rudder] error: Error: ENOTFOUND
+Error fetching feature flags Error [PostHogFetchNetworkError]: Network error while fetching PostHog
+    at new PostHogFetchNetworkError (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/posthog-core/src/index.ts:41:5)
+    at PostHog.<anonymous> (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/posthog-core/src/index.ts:546:17)
+    at step (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:102:23)
+    at Object.throw (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:83:53)
+    at rejected (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:74:65)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  error: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    [cause]: Error: getaddrinfo ENOTFOUND us.i.posthog.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:111:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'us.i.posthog.com'
+    }
+  },
+  [cause]: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    [cause]: Error: getaddrinfo ENOTFOUND us.i.posthog.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:111:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'us.i.posthog.com'
+    }
+  }
+}
+2026-11-10T11:46:55.227Z [Rudder] error: Response error code: ENOTFOUND
+2026-11-10T11:46:55.237Z [Rudder] error: Error: ENOTFOUND
+Error fetching feature flags Error [PostHogFetchNetworkError]: Network error while fetching PostHog
+    at new PostHogFetchNetworkError (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/posthog-core/src/index.ts:41:5)
+    at PostHog.<anonymous> (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/posthog-core/src/index.ts:546:17)
+    at step (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:102:23)
+    at Object.throw (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:83:53)
+    at rejected (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:74:65)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  error: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    [cause]: Error: getaddrinfo ENOTFOUND us.i.posthog.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:111:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'us.i.posthog.com'
+    }
+  },
+  [cause]: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    [cause]: Error: getaddrinfo ENOTFOUND us.i.posthog.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:111:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'us.i.posthog.com'
+    }
+  }
+}
+2026-11-11T05:03:18.893Z [Rudder] error: Response error code: ENOTFOUND
+2026-11-11T05:03:18.926Z [Rudder] error: Error: ENOTFOUND
+Error fetching feature flags Error [PostHogFetchNetworkError]: Network error while fetching PostHog
+    at new PostHogFetchNetworkError (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/posthog-core/src/index.ts:41:5)
+    at PostHog.<anonymous> (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/posthog-core/src/index.ts:546:17)
+    at step (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:102:23)
+    at Object.throw (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:83:53)
+    at rejected (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:74:65)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  error: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    [cause]: Error: getaddrinfo ENOTFOUND us.i.posthog.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:111:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'us.i.posthog.com'
+    }
+  },
+  [cause]: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    [cause]: Error: getaddrinfo ENOTFOUND us.i.posthog.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:111:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'us.i.posthog.com'
+    }
+  }
+}
+2026-11-13T11:16:46.908Z [Rudder] error: Response error code: ENOTFOUND
+2026-11-13T11:16:46.911Z [Rudder] error: Error: ENOTFOUND
+Error fetching feature flags Error [PostHogFetchNetworkError]: Network error while fetching PostHog
+    at new PostHogFetchNetworkError (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/posthog-core/src/index.ts:41:5)
+    at PostHog.<anonymous> (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/posthog-core/src/index.ts:546:17)
+    at step (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:102:23)
+    at Object.throw (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:83:53)
+    at rejected (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:74:65)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  error: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    [cause]: Error: getaddrinfo ENOTFOUND us.i.posthog.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:111:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'us.i.posthog.com'
+    }
+  },
+  [cause]: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    [cause]: Error: getaddrinfo ENOTFOUND us.i.posthog.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:111:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'us.i.posthog.com'
+    }
+  }
+}
+2026-11-13T23:15:39.483Z [Rudder] error: Response error code: ENOTFOUND
+2026-11-13T23:15:39.495Z [Rudder] error: Error: ENOTFOUND
+2026-11-14T11:40:02.127Z [Rudder] error: Response error code: ENOTFOUND
+2026-11-14T11:40:02.212Z [Rudder] error: Error: ENOTFOUND
+Error fetching feature flags Error [PostHogFetchNetworkError]: Network error while fetching PostHog
+    at new PostHogFetchNetworkError (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/posthog-core/src/index.ts:41:5)
+    at PostHog.<anonymous> (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/posthog-core/src/index.ts:546:17)
+    at step (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:102:23)
+    at Object.throw (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:83:53)
+    at rejected (/Users/chrislouis/.nvm/versions/node/v22.19.0/lib/node_modules/n8n/node_modules/node_modules/tslib/tslib.es6.js:74:65)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  error: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    [cause]: Error: getaddrinfo ENOTFOUND us.i.posthog.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:111:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'us.i.posthog.com'
+    }
+  },
+  [cause]: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    [cause]: Error: getaddrinfo ENOTFOUND us.i.posthog.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:111:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'us.i.posthog.com'
+    }
+  }
+}
+2026-11-16T23:36:35.108Z [Rudder] error: Response error code: ECONNRESET
+(node:855) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)

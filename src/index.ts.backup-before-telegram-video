@@ -1,0 +1,126 @@
+import express from "express";
+import "dotenv/config";
+import bot from "./bot";
+
+
+const PORT = process.env.PORT || 3000;
+const app = express();
+
+
+app.use(express.json());
+
+
+// Test route
+app.get("/", (req, res) => {
+    res.send("Hello World!");
+});
+
+
+// Telegram webhook
+app.post("/webhook", (req, res) => {
+    const messageText =
+        req.body?.message?.text || req.body?.message?.caption || "";
+
+
+    console.log(
+        "Telegram webhook received:",
+        messageText || "Non-text update"
+    );
+
+
+    bot.processUpdate(req.body);
+
+
+    // Acknowledge Telegram immediately
+    res.sendStatus(200);
+
+
+    // Forward ordinary messages to the local n8n workflow
+    if (messageText.trim() && !messageText.trim().startsWith("/")) {
+        fetch("http://localhost:5678/webhook/telegram", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(req.body),
+        })
+            .then((response) => {
+                if (!response.ok) {
+                    console.error(
+                        "n8n forwarding failed:",
+                        response.status
+                    );
+                } else {
+                    console.log("Message successfully forwarded to n8n!");
+                }
+            })
+            .catch((error) => {
+                console.error("Could not reach n8n:", error);
+            });
+    }
+});
+
+
+
+// Protected video-link endpoint for n8n
+app.post("/process-link", (req, res) => {
+    const suppliedSecret = req.headers["x-upload-secret"];
+    const expectedSecret = process.env.UPLOAD_SECRET;
+
+
+    if (
+        !expectedSecret ||
+        typeof suppliedSecret !== "string" ||
+        suppliedSecret !== expectedSecret
+    ) {
+        return res.status(401).json({
+            success: false,
+            error: "Unauthorized",
+        });
+    }
+
+
+    const videoUrl = req.body?.url;
+
+
+    if (typeof videoUrl !== "string" || !videoUrl.trim()) {
+        return res.status(400).json({
+            success: false,
+            error: "A video URL is required",
+        });
+    }
+
+
+    let parsedUrl: URL;
+
+
+    try {
+        parsedUrl = new URL(videoUrl.trim());
+    } catch {
+        return res.status(400).json({
+            success: false,
+            error: "Invalid video URL",
+        });
+    }
+
+
+    if (parsedUrl.protocol !== "http:" && parsedUrl.protocol !== "https:") {
+        return res.status(400).json({
+            success: false,
+            error: "Only HTTP and HTTPS links are accepted",
+        });
+    }
+
+
+    return res.status(202).json({
+        success: true,
+        message: "Video link received and validated. Processing is not implemented yet.",
+        url: parsedUrl.toString(),
+    });
+});
+
+
+// Start server
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+});

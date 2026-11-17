@@ -1,0 +1,1 @@
+{"version":3,"file":"youtubeUploader.d.ts","sourceRoot":"","sources":["../src/youtubeUploader.ts"],"names":[],"mappings":"AAMA,MAAM,WAAW,mBAAmB;IAChC,OAAO,EAAE,MAAM,CAAC;IAChB,QAAQ,EAAE,MAAM,CAAC;IACjB,aAAa,EAAE,MAAM,CAAC;CACzB;AAGD,wBAAsB,eAAe,CACjC,SAAS,EAAE,MAAM,EACjB,KAAK,EAAE,MAAM,EACb,WAAW,EAAE,MAAM,GACpB,OAAO,CAAC,mBAAmB,CAAC,CAmF9B"}

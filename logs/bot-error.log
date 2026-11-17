@@ -1,0 +1,467 @@
+Webhook registration failed: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    ... 3 lines matching cause stack trace ...
+    at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+  code: 'EFATAL',
+  name: 'FatalError',
+  cause: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async HttpClient._attempt (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:143:24)
+      at async HttpClient.request (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:98:40)
+      at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+    [cause]: Error: getaddrinfo ENOTFOUND api.telegram.org
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.telegram.org'
+    }
+  }
+}
+Webhook registration failed: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    ... 3 lines matching cause stack trace ...
+    at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+  code: 'EFATAL',
+  name: 'FatalError',
+  cause: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async HttpClient._attempt (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:143:24)
+      at async HttpClient.request (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:98:40)
+      at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+    [cause]: Error: getaddrinfo ENOTFOUND api.telegram.org
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.telegram.org'
+    }
+  }
+}
+Webhook registration failed: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    ... 3 lines matching cause stack trace ...
+    at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+  code: 'EFATAL',
+  name: 'FatalError',
+  cause: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async HttpClient._attempt (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:143:24)
+      at async HttpClient.request (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:98:40)
+      at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+    [cause]: Error: getaddrinfo ENOTFOUND api.telegram.org
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.telegram.org'
+    }
+  }
+}
+Webhook registration failed: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    ... 3 lines matching cause stack trace ...
+    at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+  code: 'EFATAL',
+  name: 'FatalError',
+  cause: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async HttpClient._attempt (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:143:24)
+      at async HttpClient.request (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:98:40)
+      at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+    [cause]: Error: getaddrinfo ENOTFOUND api.telegram.org
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.telegram.org'
+    }
+  }
+}
+Webhook registration failed: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    ... 3 lines matching cause stack trace ...
+    at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+  code: 'EFATAL',
+  name: 'FatalError',
+  cause: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async HttpClient._attempt (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:143:24)
+      at async HttpClient.request (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:98:40)
+      at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+    [cause]: Error: getaddrinfo ENOTFOUND api.telegram.org
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.telegram.org'
+    }
+  }
+}
+Webhook registration failed: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    ... 3 lines matching cause stack trace ...
+    at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+  code: 'EFATAL',
+  name: 'FatalError',
+  cause: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async HttpClient._attempt (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:143:24)
+      at async HttpClient.request (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:98:40)
+      at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+    [cause]: Error: getaddrinfo ENOTFOUND api.telegram.org
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.telegram.org'
+    }
+  }
+}
+Webhook registration failed: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    ... 3 lines matching cause stack trace ...
+    at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+  code: 'EFATAL',
+  name: 'FatalError',
+  cause: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async HttpClient._attempt (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:143:24)
+      at async HttpClient.request (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:98:40)
+      at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+    [cause]: Error: getaddrinfo ENOTFOUND api.telegram.org
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.telegram.org'
+    }
+  }
+}
+Webhook registration failed: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    ... 3 lines matching cause stack trace ...
+    at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+  code: 'EFATAL',
+  name: 'FatalError',
+  cause: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async HttpClient._attempt (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:143:24)
+      at async HttpClient.request (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:98:40)
+      at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+    [cause]: Error: getaddrinfo ENOTFOUND api.telegram.org
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.telegram.org'
+    }
+  }
+}
+Webhook registration failed: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    ... 3 lines matching cause stack trace ...
+    at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+  code: 'EFATAL',
+  name: 'FatalError',
+  cause: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async HttpClient._attempt (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:143:24)
+      at async HttpClient.request (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:98:40)
+      at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+    [cause]: Error: getaddrinfo ENOTFOUND api.telegram.org
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.telegram.org'
+    }
+  }
+}
+Webhook registration failed: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    ... 3 lines matching cause stack trace ...
+    at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+  code: 'EFATAL',
+  name: 'FatalError',
+  cause: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async HttpClient._attempt (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:143:24)
+      at async HttpClient.request (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:98:40)
+      at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+    [cause]: Error: getaddrinfo ENOTFOUND api.telegram.org
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.telegram.org'
+    }
+  }
+}
+Webhook registration failed: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    ... 3 lines matching cause stack trace ...
+    at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+  code: 'EFATAL',
+  name: 'FatalError',
+  cause: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async HttpClient._attempt (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:143:24)
+      at async HttpClient.request (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:98:40)
+      at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+    [cause]: Error: getaddrinfo ENOTFOUND api.telegram.org
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.telegram.org'
+    }
+  }
+}
+Webhook registration failed: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    ... 3 lines matching cause stack trace ...
+    at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+  code: 'EFATAL',
+  name: 'FatalError',
+  cause: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async HttpClient._attempt (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:143:24)
+      at async HttpClient.request (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:98:40)
+      at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+    [cause]: Error: getaddrinfo ENOTFOUND api.telegram.org
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.telegram.org'
+    }
+  }
+}
+Webhook registration failed: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    ... 3 lines matching cause stack trace ...
+    at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+  code: 'EFATAL',
+  name: 'FatalError',
+  cause: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async HttpClient._attempt (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:143:24)
+      at async HttpClient.request (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:98:40)
+      at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+    [cause]: Error: getaddrinfo ENOTFOUND api.telegram.org
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.telegram.org'
+    }
+  }
+}
+Webhook registration failed: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    ... 3 lines matching cause stack trace ...
+    at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+  code: 'EFATAL',
+  name: 'FatalError',
+  cause: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async HttpClient._attempt (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:143:24)
+      at async HttpClient.request (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:98:40)
+      at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+    [cause]: Error: getaddrinfo ENOTFOUND api.telegram.org
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.telegram.org'
+    }
+  }
+}
+Webhook registration failed: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    ... 3 lines matching cause stack trace ...
+    at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+  code: 'EFATAL',
+  name: 'FatalError',
+  cause: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async HttpClient._attempt (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:143:24)
+      at async HttpClient.request (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:98:40)
+      at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+    [cause]: Error: getaddrinfo ENOTFOUND api.telegram.org
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.telegram.org'
+    }
+  }
+}
+Webhook registration failed: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    ... 3 lines matching cause stack trace ...
+    at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+  code: 'EFATAL',
+  name: 'FatalError',
+  cause: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async HttpClient._attempt (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:143:24)
+      at async HttpClient.request (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:98:40)
+      at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+    [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: api.telegram.org:443, timeout: 10000ms)
+        at onConnectTimeout (node:internal/deps/undici/undici:2602:28)
+        at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+        at process.processImmediate (node:internal/timers:485:21) {
+      code: 'UND_ERR_CONNECT_TIMEOUT'
+    }
+  }
+}
+Webhook registration failed: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    ... 3 lines matching cause stack trace ...
+    at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+  code: 'EFATAL',
+  name: 'FatalError',
+  cause: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async HttpClient._attempt (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:143:24)
+      at async HttpClient.request (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:98:40)
+      at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+    [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: api.telegram.org:443, timeout: 10000ms)
+        at onConnectTimeout (node:internal/deps/undici/undici:2602:28)
+        at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+        at process.processImmediate (node:internal/timers:485:21) {
+      code: 'UND_ERR_CONNECT_TIMEOUT'
+    }
+  }
+}
+Webhook registration failed: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    ... 3 lines matching cause stack trace ...
+    at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+  code: 'EFATAL',
+  name: 'FatalError',
+  cause: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async HttpClient._attempt (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:143:24)
+      at async HttpClient.request (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:98:40)
+      at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+    [cause]: Error: getaddrinfo ENOTFOUND api.telegram.org
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.telegram.org'
+    }
+  }
+}
+Webhook registration failed: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    ... 3 lines matching cause stack trace ...
+    at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+  code: 'EFATAL',
+  name: 'FatalError',
+  cause: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async HttpClient._attempt (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:143:24)
+      at async HttpClient.request (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:98:40)
+      at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+    [cause]: Error: getaddrinfo ENOTFOUND api.telegram.org
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.telegram.org'
+    }
+  }
+}
+Webhook registration failed: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    ... 3 lines matching cause stack trace ...
+    at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+  code: 'EFATAL',
+  name: 'FatalError',
+  cause: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async HttpClient._attempt (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:143:24)
+      at async HttpClient.request (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:98:40)
+      at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+    [cause]: Error: getaddrinfo ENOTFOUND api.telegram.org
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.telegram.org'
+    }
+  }
+}
+Webhook registration failed: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    ... 3 lines matching cause stack trace ...
+    at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+  code: 'EFATAL',
+  name: 'FatalError',
+  cause: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async HttpClient._attempt (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:143:24)
+      at async HttpClient.request (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:98:40)
+      at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+    [cause]: Error: getaddrinfo ENOTFOUND api.telegram.org
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.telegram.org'
+    }
+  }
+}
+Video link processing failed: Video download failed: Command failed: /Users/chrislouis/n8_bot/tools/bin/yt-dlp --no-playlist --no-part --no-progress --no-warnings --no-write-info-json --no-write-thumbnail --no-write-subs --no-write-auto-subs --socket-timeout 30 --retries 1 --fragment-retries 1 --max-filesize 20M --format best[ext=mp4]/best --output /Users/chrislouis/n8_bot/uploads/video-link-bfe836f7-b277-45bd-bc1c-d2255d0ab123/source.%(ext)s https://vt.tiktok.com/ZSp2RgTFJ/
+ERROR: [vm.tiktok] ZSp2RgTFJ: Unable to download webpage: ('Unable to connect to proxy', ConnectTimeoutError(<HTTPSConnection(host='47.88.19', port=8080) at 0x10961d940>, 'Connection to 47.88.19 timed out. (connect timeout=30.0)')) (caused by ProxyError("('Unable to connect to proxy', ConnectTimeoutError(<HTTPSConnection(host='47.88.19', port=8080) at 0x10961d940>, 'Connection to 47.88.19 timed out. (connect timeout=30.0)'))")); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+
+Webhook registration failed: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    ... 3 lines matching cause stack trace ...
+    at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+  code: 'EFATAL',
+  name: 'FatalError',
+  cause: TypeError: fetch failed
+      at node:internal/deps/undici/undici:13510:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async HttpClient._attempt (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:143:24)
+      at async HttpClient.request (/Users/chrislouis/n8_bot/node_modules/node-telegram-bot-api/dist/http.cjs:98:40)
+      at async init (/Users/chrislouis/n8_bot/dist/bot.js:12:22) {
+    [cause]: Error: getaddrinfo ENOTFOUND api.telegram.org
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.telegram.org'
+    }
+  }
+}
+Video link processing failed: Video download failed: Could not identify one downloaded video
+Video link processing failed: Video download failed: Command failed: /Users/chrislouis/n8_bot/tools/bin/yt-dlp --proxy  --no-playlist --no-part --no-progress --no-warnings --no-write-info-json --no-write-thumbnail --no-write-subs --no-write-auto-subs --socket-timeout 30 --retries 1 --fragment-retries 1 --max-filesize 20M --format best[ext=mp4]/best --output /Users/chrislouis/n8_bot/uploads/video-link-167dee1b-9207-4eda-8bb3-1965a0eacb73/source.%(ext)s https://youtu.be/ZaTnOxYqJNk
+ERROR: [youtube] ZaTnOxYqJNk: Requested format is not available. Use --list-formats for a list of available formats
+

@@ -1,0 +1,67 @@
+import express from "express";
+import "dotenv/config";
+import bot from "./bot";
+
+
+const PORT = process.env.PORT || 3000;
+const app = express();
+
+
+app.use(express.json());
+
+
+// Test route
+app.get("/", (req, res) => {
+    res.send("Hello World!");
+});
+
+
+// Telegram webhook
+app.post("/webhook", (req, res) => {
+    const messageText =
+        req.body?.message?.text || req.body?.message?.caption || "";
+
+
+    console.log(
+        "Telegram webhook received:",
+        messageText || "Non-text update"
+    );
+
+
+    bot.processUpdate(req.body);
+
+
+    // Acknowledge Telegram immediately
+    res.sendStatus(200);
+
+
+    // Forward ordinary messages to the local n8n workflow
+    if (messageText.trim() && !messageText.trim().startsWith("/")) {
+        fetch("http://localhost:5678/webhook/telegram", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(req.body),
+        })
+            .then((response) => {
+                if (!response.ok) {
+                    console.error(
+                        "n8n forwarding failed:",
+                        response.status
+                    );
+                } else {
+                    console.log("Message successfully forwarded to n8n!");
+                }
+            })
+            .catch((error) => {
+                console.error("Could not reach n8n:", error);
+            });
+    }
+});
+
+
+// Start server
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+});

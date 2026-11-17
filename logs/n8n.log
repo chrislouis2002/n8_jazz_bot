@@ -1,0 +1,275 @@
+Permissions 0644 for n8n settings file /Users/chrislouis/.n8n/config are too wide. This is ignored for now, but in the future n8n will attempt to change the permissions automatically. To automatically enforce correct permissions now set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true (recommended), or turn this check off set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false.
+Initializing n8n process
+n8n ready on ::, port 5678
+
+There are deprecations related to your environment variables. Please take the recommended actions to update your configuration:
+ - DB_SQLITE_POOL_SIZE -> Running SQLite without a pool of read connections is deprecated. Please set `DB_SQLITE_POOL_SIZE` to a value higher than zero. See: https://docs.n8n.io/hosting/configuration/environment-variables/database/#sqlite
+ - N8N_RUNNERS_ENABLED -> Running n8n without task runners is deprecated. Task runners will be turned on by default in a future version. Please set `N8N_RUNNERS_ENABLED=true` to enable task runners now and avoid potential issues in the future. Learn more: https://docs.n8n.io/hosting/configuration/task-runners/
+ - N8N_BLOCK_ENV_ACCESS_IN_NODE -> The default value of N8N_BLOCK_ENV_ACCESS_IN_NODE will be changed from false to true in a future version. If you need to access environment variables from the Code Node or from expressions, please set N8N_BLOCK_ENV_ACCESS_IN_NODE=false. Learn more: https://docs.n8n.io/hosting/configuration/environment-variables/security/
+ - N8N_GIT_NODE_DISABLE_BARE_REPOS -> Support for bare repositories in the Git Node will be removed in a future version due to security concerns. If you are not using bare repositories in the Git Node, please set N8N_GIT_NODE_DISABLE_BARE_REPOS=true. Learn more: https://docs.n8n.io/hosting/configuration/environment-variables/security/
+
+[license SDK] Skipping renewal on init: license cert is not initialized
+Version: 1.123.90
+
+Editor is now accessible via:
+http://localhost:5678
+getaddrinfo ENOTFOUND api-staging.n8n.io
+getaddrinfo ENOTFOUND api-staging.n8n.io
+Error while fetching community nodes: getaddrinfo ENOTFOUND api-staging.n8n.io
+Database connection timed out
+Database connection recovered
+Pruning old insights data
+getaddrinfo ENOTFOUND telemetry.n8n.io
+getaddrinfo ENOTFOUND telemetry.n8n.io
+Database connection timed out
+Database connection recovered
+Slow database query
+Pruning old insights data
+getaddrinfo ENOTFOUND telemetry.n8n.io
+getaddrinfo ENOTFOUND telemetry.n8n.io
+Pruning old insights data
+Pruning old insights data
+getaddrinfo ENOTFOUND telemetry.n8n.io
+getaddrinfo ENOTFOUND telemetry.n8n.io
+getaddrinfo ENOTFOUND telemetry.n8n.io
+getaddrinfo ENOTFOUND telemetry.n8n.io
+getaddrinfo ENOTFOUND telemetry.n8n.io
+getaddrinfo ENOTFOUND telemetry.n8n.io
+Database connection timed out
+Database connection recovered
+Pruning old insights data
+getaddrinfo ENOTFOUND telemetry.n8n.io
+getaddrinfo ENOTFOUND telemetry.n8n.io
+getaddrinfo ENOTFOUND telemetry.n8n.io
+getaddrinfo ENOTFOUND telemetry.n8n.io
+Pruning old insights data
+getaddrinfo ENOTFOUND telemetry.n8n.io
+getaddrinfo ENOTFOUND telemetry.n8n.io
+getaddrinfo ENOTFOUND telemetry.n8n.io
+getaddrinfo ENOTFOUND telemetry.n8n.io
+Pruning old insights data
+getaddrinfo ENOTFOUND telemetry.n8n.io
+getaddrinfo ENOTFOUND telemetry.n8n.io
+Database connection timed out
+Database connection recovered
+Database connection timed out
+503 Database is not ready!
+Database connection recovered
+getaddrinfo ENOTFOUND telemetry.n8n.io
+getaddrinfo ENOTFOUND telemetry.n8n.io
+Pruning old insights data
+getaddrinfo ENOTFOUND telemetry.n8n.io
+getaddrinfo ENOTFOUND telemetry.n8n.io
+Permissions 0644 for n8n settings file /Users/chrislouis/.n8n/config are too wide. This is ignored for now, but in the future n8n will attempt to change the permissions automatically. To automatically enforce correct permissions now set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true (recommended), or turn this check off set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false.
+Initializing n8n process
+n8n ready on ::, port 5678
+
+There are deprecations related to your environment variables. Please take the recommended actions to update your configuration:
+ - DB_SQLITE_POOL_SIZE -> Running SQLite without a pool of read connections is deprecated. Please set `DB_SQLITE_POOL_SIZE` to a value higher than zero. See: https://docs.n8n.io/hosting/configuration/environment-variables/database/#sqlite
+ - N8N_RUNNERS_ENABLED -> Running n8n without task runners is deprecated. Task runners will be turned on by default in a future version. Please set `N8N_RUNNERS_ENABLED=true` to enable task runners now and avoid potential issues in the future. Learn more: https://docs.n8n.io/hosting/configuration/task-runners/
+ - N8N_BLOCK_ENV_ACCESS_IN_NODE -> The default value of N8N_BLOCK_ENV_ACCESS_IN_NODE will be changed from false to true in a future version. If you need to access environment variables from the Code Node or from expressions, please set N8N_BLOCK_ENV_ACCESS_IN_NODE=false. Learn more: https://docs.n8n.io/hosting/configuration/environment-variables/security/
+ - N8N_GIT_NODE_DISABLE_BARE_REPOS -> Support for bare repositories in the Git Node will be removed in a future version due to security concerns. If you are not using bare repositories in the Git Node, please set N8N_GIT_NODE_DISABLE_BARE_REPOS=true. Learn more: https://docs.n8n.io/hosting/configuration/environment-variables/security/
+
+[license SDK] Skipping renewal on init: license cert is not initialized
+Version: 1.123.90
+Start Active Workflows:
+Activated workflow "Youtube Automation" (ID: OK91atjnNMvR63tu)
+
+Editor is now accessible via:
+http://localhost:5678
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Pruning old insights data
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection timed out
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection timed out
+Database connection timed out
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection timed out
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+503 Database is not ready!
+Database connection timed out
+503 Database is not ready!
+Database connection recovered
+Database connection timed out
+503 Database is not ready!
+503 Database is not ready!
+503 Database is not ready!
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+503 Database is not ready!
+Database connection recovered
+Database connection timed out
+503 Database is not ready!
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection timed out
+Database connection recovered
+Database connection timed out
+Database connection recovered

@@ -1,0 +1,1 @@
+{"version":3,"file":"highlightDetector.d.ts","sourceRoot":"","sources":["../src/highlightDetector.ts"],"names":[],"mappings":"AAKA,MAAM,WAAW,cAAc;IAC3B,aAAa,EAAE,MAAM,CAAC;IACtB,WAAW,EAAE,MAAM,CAAC;IACpB,MAAM,EAAE,MAAM,CAAC;IACf,eAAe,EAAE,MAAM,CAAC;CAC3B;AAGD,wBAAsB,gBAAgB,CAClC,SAAS,EAAE,MAAM,EACjB,eAAe,EAAE,MAAM,GACxB,OAAO,CAAC,cAAc,EAAE,CAAC,CAoM3B"}
